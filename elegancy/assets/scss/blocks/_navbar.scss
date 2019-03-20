@@ -1,0 +1,28 @@
+// Основні стилі
+
+.header {
+    display: flex;
+    align-items: flex-end;
+    min-height: 50px;
+    border: 1px solid red;
+}
+
+
+.menu {
+    
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__items {
+        // color: $text-color;
+        font-family: +thin;
+        font-weight: 400;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

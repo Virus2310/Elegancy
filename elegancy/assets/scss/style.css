@@ -1,0 +1,87 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  min-height: 50px;
+  border: 1px solid red;
+}
+
+.menu__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu__items {
+  font-family: +thin;
+  font-weight: 400;
+}
+
+.menu__items:hover {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Raleway Semibold';
+  src: url("Raleway-SemiBold.eot");
+  src: url("Raleway-SemiBold.eot?#iefix") format("embedded-opentype"), url("Raleway-SemiBold.woff") format("woff"), url("../assets/fonts/Raleway-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Thin';
+  src: url("Raleway-Thin.eot");
+  src: url("Raleway-Thin.eot?#iefix") format("embedded-opentype"), url("Raleway-Thin.woff") format("woff"), url("../assets/fonts/Raleway-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Light';
+  src: url("Raleway-Light.eot");
+  src: url("Raleway-Light.eot?#iefix") format("embedded-opentype"), url("Raleway-Light.woff") format("woff"), url("../assets/fonts/Raleway-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Regular';
+  src: url("Raleway-Regular.eot");
+  src: url("Raleway-Regular.eot?#iefix") format("embedded-opentype"), url("Raleway-Regular.woff") format("woff"), url("../assets/fonts/Raleway-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Medium';
+  src: url("Raleway-Medium.eot");
+  src: url("Raleway-Medium.eot?#iefix") format("embedded-opentype"), url("Raleway-Medium.woff") format("woff"), url("../assets/fonts/Raleway-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Bold';
+  src: url("Raleway-Bold.eot");
+  src: url("Raleway-Bold.eot?#iefix") format("embedded-opentype"), url("Raleway-Bold.woff") format("woff"), url("../assets/fonts/Raleway-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: Raleway-Regular, sans-serif;
+  font-family: Raleway-Bold, sans-serif;
+  font-family: Raleoway-SemiBold, sans-serif;
+  font-family: Raleway-Light, sans-serif;
+  font-family: Raleway-Thin, sans-serif;
+  font-family: Raleway-Medium,sans-serif;
+  font-size: 16px;
+}
+/*# sourceMappingURL=style.css.map */
