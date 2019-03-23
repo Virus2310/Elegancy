@@ -1,0 +1,42 @@
+@import "../_colors";
+@import"../_fonts";
+
+
+// Основні стилі
+
+.header {
+    background: #d1d1d1 url('/Elegancy-Web-Site-/elegancy/assets/images/head-bag.png') no-repeat ;
+    background-size:cover;
+    height: 100vh;
+    padding-top: 40px;
+}
+
+
+.top-nav {
+    display: flex;
+    align-items: flex-end;
+    min-height: 100px;
+    border: 1px solid red;
+}
+
+.nav {
+    
+    &__list{  // ul
+        list-style: none;
+        display: flex;
+    }
+
+    &__link { // a
+        color: $text-color;
+        @include font-light;
+        font-weight:400;
+        margin-right: 20px;
+        &:hover {
+            text-decoration: none;
+            
+        }
+    }
+}
+
+
+

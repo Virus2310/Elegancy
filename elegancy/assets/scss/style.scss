@@ -1,7 +1,4 @@
 
-// Шапка Сайту
-@import 'blocks/navbar';
-
 // Настройи шрифтів
 @import 'fonts';
 
@@ -11,13 +8,12 @@
 // Настройки кольору
 @import 'colors';
 
-
 // Основні стилі
 
+// Шапка Сайту
+@import 'blocks/header';
 
-// ul{sss
-//     list-style: none;
-// }
+
 
 
 

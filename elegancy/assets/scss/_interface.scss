@@ -1,13 +1,35 @@
-@import "fonts";
+@import '_fonts';
+@import '_colors';
 
 
 body {
-    font-family: regular;
-    // bold;
-    // semibold;
-    // light;
-    // thin;
-    // medium;
+    @include font-regular;
+    @include font-bold;
+    @include font-semibold;
+    @include font-light;
+    @include font-thin;
+    @include font-medium;
     color: $text-color;
     font-size: 16px;
+}
+
+.social-block{
+    // margin-left: 180px;
+    &__link{
+        display: inline-block;
+        background-color: white;
+        margin-right: 20px;
+        text-align: center;
+        text-decoration: none;
+        color:#575757;
+        padding: 8px 14px;
+        border-radius: 200px;
+        transition: all .3s;
+        
+        &:hover{
+            text-decoration: none;
+            background-color: black;
+            color: white;
+        }
+    }
 }
