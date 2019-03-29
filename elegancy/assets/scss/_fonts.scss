@@ -58,26 +58,3 @@
     font-style: normal;
 }
 
-@mixin font-bold {
-    font-family: Raleway-Bold, sans-serif;
-}
-
-@mixin font-semibold {
-    font-family: Raleoway-SemiBold, sans-serif;
-}
-
-@mixin font-medium {
-    font-family: Raleway-Medium,sans-serif;
-}
-
-@mixin font-regular {
-    font-family: Raleway-Regular, sans-serif;
-}
-
-@mixin font-thin {
-    font-family: Raleway-Thin, sans-serif;
-}
-
-@mixin font-light {
-    font-family: Raleway-Light, sans-serif;
-}

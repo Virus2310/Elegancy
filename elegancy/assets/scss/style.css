@@ -94,6 +94,22 @@
   font-style: normal;
 }
 
+.input::-webkit-input-placeholder {
+  color: red;
+}
+
+.input:-moz-placeholder {
+  color: red;
+}
+
+.input::-moz-placeholder {
+  color: red;
+}
+
+.input:-ms-input-placeholder {
+  color: red;
+}
+
 body {
   font-family: Raleway-Regular, sans-serif;
   font-family: Raleway-Bold, sans-serif;
@@ -101,27 +117,178 @@ body {
   font-family: Raleway-Light, sans-serif;
   font-family: Raleway-Thin, sans-serif;
   font-family: Raleway-Medium,sans-serif;
-  color: gray;
+  color: #727272;
   font-size: 16px;
+}
+
+.social-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .social-block__link {
   display: inline-block;
   background-color: white;
-  margin-right: 20px;
   text-align: center;
   text-decoration: none;
   color: #575757;
-  padding: 8px 14px;
-  border-radius: 200px;
+  border-radius: 300px;
   -webkit-transition: all .3s;
   transition: all .3s;
+}
+
+.social-block__link i {
+  padding: 15px 18px;
 }
 
 .social-block__link:hover {
   text-decoration: none;
   background-color: black;
   color: white;
+}
+
+.form-main__wrapper {
+  width: 850px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px 10px;
+}
+
+.form-wrap__text {
+  border: none;
+  background-color: #f0f0f0;
+  padding: 15px 100px 15px 15px;
+}
+
+.form-wrap__text::-webkit-input-placeholder {
+  color: #c0bebe;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 400;
+  /* Text style for "Y, our nam" */
+  letter-spacing: 0.56px;
+  -webkit-transition: opacity 300ms;
+  transition: opacity 300ms;
+}
+
+.form-wrap__text:-moz-placeholder {
+  color: #c0bebe;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 400;
+  /* Text style for "Y, our nam" */
+  letter-spacing: 0.56px;
+  -webkit-transition: opacity 300ms;
+  transition: opacity 300ms;
+}
+
+.form-wrap__text::-moz-placeholder {
+  color: #c0bebe;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 400;
+  /* Text style for "Y, our nam" */
+  letter-spacing: 0.56px;
+  -webkit-transition: opacity 300ms;
+  transition: opacity 300ms;
+}
+
+.form-wrap__text:-ms-input-placeholder {
+  color: #c0bebe;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 400;
+  /* Text style for "Y, our nam" */
+  letter-spacing: 0.56px;
+  -webkit-transition: opacity 300ms;
+  transition: opacity 300ms;
+}
+
+.form-wrap__text:focus::-webkit-input-placeholder {
+  opacity: 0;
+  font-size: 18px;
+}
+
+.form-wrap__text:focus:-moz-placeholder {
+  opacity: 0;
+  font-size: 18px;
+}
+
+.form-wrap__text:focus::-moz-placeholder {
+  opacity: 0;
+  font-size: 18px;
+}
+
+.form-wrap__text:focus:-ms-input-placeholder {
+  opacity: 0;
+  font-size: 18px;
+}
+
+.form-wrap__email {
+  border: 2px solid #e6e5e5;
+  background-color: #f0f0f0;
+  color: #454546;
+  padding: 15px 100px 15px 15px;
+}
+
+.form-wrap__email::-webkit-input-placeholder {
+  color: #454546;
+  text-indent: 0px;
+  -webkit-transition: text-indent 300ms;
+  transition: text-indent 300ms;
+}
+
+.form-wrap__email:-moz-placeholder {
+  color: #454546;
+  text-indent: 0px;
+  -webkit-transition: text-indent 300ms;
+  transition: text-indent 300ms;
+}
+
+.form-wrap__email::-moz-placeholder {
+  color: #454546;
+  text-indent: 0px;
+  -webkit-transition: text-indent 300ms;
+  transition: text-indent 300ms;
+}
+
+.form-wrap__email:-ms-input-placeholder {
+  color: #454546;
+  text-indent: 0px;
+  -webkit-transition: text-indent 300ms;
+  transition: text-indent 300ms;
+}
+
+.form-wrap__email:focus::-webkit-input-placeholder {
+  text-indent: 1000px;
+}
+
+.form-wrap__email:focus:-moz-placeholder {
+  text-indent: 1000px;
+}
+
+.form-wrap__email:focus::-moz-placeholder {
+  text-indent: 1000px;
+}
+
+.form-wrap__email:focus:-ms-input-placeholder {
+  text-indent: 1000px;
+}
+
+.form-wrap__subs {
+  border: none;
+  background-color: #395e66;
+  font-family: Raleoway-SemiBold, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* Text style for "S, ubscrib" */
+  letter-spacing: 0.56px;
+  color: #fff;
+  padding: 20px 34px;
 }
 
 @font-face {
@@ -172,6 +339,22 @@ body {
   font-style: normal;
 }
 
+.input::-webkit-input-placeholder {
+  color: red;
+}
+
+.input:-moz-placeholder {
+  color: red;
+}
+
+.input::-moz-placeholder {
+  color: red;
+}
+
+.input:-ms-input-placeholder {
+  color: red;
+}
+
 .header {
   background: #d1d1d1 url("/Elegancy-Web-Site-/elegancy/assets/images/head-bag.png") no-repeat;
   background-size: cover;
@@ -179,32 +362,57 @@ body {
   padding-top: 40px;
 }
 
-.top-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  min-height: 100px;
-  border: 1px solid red;
-}
-
-.nav__list {
+.nav-block__list {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.nav__link {
-  color: gray;
+.nav-block__link {
+  color: #727272;
   font-family: Raleway-Light, sans-serif;
   font-weight: 400;
-  margin-right: 20px;
 }
 
-.nav__link:hover {
+.nav-block__link:hover {
   text-decoration: none;
+}
+
+.form-main__item {
+  margin-top: 150px;
+}
+
+.form-block__title {
+  padding-bottom: 30px;
+}
+
+.form-block__text {
+  font-family: Raleway;
+  font-size: 13px;
+  font-weight: 300;
+  text-transform: uppercase;
+  /* Text style for "Join our n" */
+  letter-spacing: 3.25px;
+  padding-bottom: 40px;
+}
+
+.input::-webkit-input-placeholder {
+  color: red;
+}
+
+.input:-moz-placeholder {
+  color: red;
+}
+
+.input::-moz-placeholder {
+  color: red;
+}
+
+.input:-ms-input-placeholder {
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */

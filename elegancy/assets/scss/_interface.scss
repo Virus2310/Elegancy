@@ -1,5 +1,6 @@
 @import '_fonts';
 @import '_colors';
+@import 'utils/_glob';
 
 
 body {
@@ -11,25 +12,97 @@ body {
     @include font-medium;
     color: $text-color;
     font-size: 16px;
+
 }
 
-.social-block{
+.social-block {
     // margin-left: 180px;
-    &__link{
+    display: flex;
+    justify-content: space-around;
+
+    &__link {
         display: inline-block;
         background-color: white;
-        margin-right: 20px;
+        // margin-right: 20px;
         text-align: center;
         text-decoration: none;
-        color:#575757;
-        padding: 8px 14px;
-        border-radius: 200px;
+        color: $color-link;
+        border-radius: 300px;
         transition: all .3s;
-        
-        &:hover{
+
+        i {
+            padding: 15px 18px;
+        }
+
+        &:hover {
             text-decoration: none;
             background-color: black;
             color: white;
         }
+    }
+}
+
+.form-main__wrapper {
+    width: 850px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px 10px;
+}
+
+.form-wrap {
+    &__text {
+        border: none;
+        background-color: $back-color-input;
+        padding: 15px 100px 15px 15px;
+
+        @include placeholder {
+            color: #c0bebe;
+            font-family: Raleway;
+            font-size: 14px;
+            font-weight: 400;
+            /* Text style for "Y, our nam" */
+            letter-spacing: 0.56px;
+            transition: opacity 300ms;
+        }
+
+        &:focus {
+            @include placeholder {
+                opacity: 0;
+                font-size: 18px;
+            }
+        }
+    }
+
+    &__email {
+        border: 2px solid #e6e5e5;
+        background-color: $back-color-input;
+        color: #454546;
+        padding: 15px 100px 15px 15px;
+
+
+        @include placeholder {
+            color: #454546;
+            text-indent: 0px;
+            transition: text-indent 300ms;
+        }
+
+        &:focus {
+            @include placeholder {
+                text-indent: 1000px;
+            }
+        }
+    }
+
+    &__subs {
+        border: none;
+        background-color: $back-color-button;
+        @include font-semibold;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        /* Text style for "S, ubscrib" */
+        letter-spacing: 0.56px;
+        color: #fff;
+        padding: 20px 34px;
     }
 }

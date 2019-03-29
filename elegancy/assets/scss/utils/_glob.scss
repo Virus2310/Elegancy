@@ -1,0 +1,42 @@
+
+// Шрифти
+@mixin font-bold {
+    font-family: Raleway-Bold, sans-serif;
+}
+
+@mixin font-semibold {
+    font-family: Raleoway-SemiBold, sans-serif;
+}
+
+@mixin font-medium {
+    font-family: Raleway-Medium,sans-serif;
+}
+
+@mixin font-regular {
+    font-family: Raleway-Regular, sans-serif;
+}
+
+@mixin font-thin {
+    font-family: Raleway-Thin, sans-serif;
+}
+
+@mixin font-light {
+    font-family: Raleway-Light, sans-serif;
+}
+
+// Placeholder
+
+@mixin placeholder {
+    &::-webkit-input-placeholder {@content}
+    &:-moz-placeholder           {@content}
+    &::-moz-placeholder          {@content}
+    &:-ms-input-placeholder      {@content}  
+  }
+  
+  .input {
+    @include placeholder {
+      color: red;
+    }
+  }
+  
+  
