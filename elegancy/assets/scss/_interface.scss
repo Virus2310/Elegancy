@@ -93,8 +93,15 @@ body {
         }
     }
 
-    &__subs {
+    .button{
+        color: #fff;
         border: none;
+        padding: 20px 34px;
+        background-color: $back-color-button;
+        @include font-semibold;
+    }
+
+    &__subs {
         background-color: $back-color-button;
         @include font-semibold;
         font-size: 14px;
@@ -103,6 +110,5 @@ body {
         /* Text style for "S, ubscrib" */
         letter-spacing: 0.56px;
         color: #fff;
-        padding: 20px 34px;
     }
 }

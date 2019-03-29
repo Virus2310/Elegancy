@@ -8,14 +8,15 @@
 // Настройки кольору
 @import 'colors';
 
-// Основні стилі
-
 // Шапка Сайту
 @import 'blocks/header';
 
 // Миксини
 @import 'utils/_glob';
 
+// Блоки
+@import 'blocks/features';
+@import 'blocks/gravity';
 
 
 

@@ -33,10 +33,10 @@
     &:-ms-input-placeholder      {@content}  
   }
   
-  .input {
-    @include placeholder {
-      color: red;
-    }
-  }
+//  .input {
+//     @include placeholder {
+//       color: red;
+//     }
+//   }
   
   

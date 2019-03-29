@@ -1,0 +1,38 @@
+@import "../_colors";
+@import "../_fonts";
+@import "../utils/glob";
+@import "../blocks/header";
+
+
+// Основні стилі
+
+
+.features {
+    background-color: white;
+    padding: 60px 90px;
+    height: auto;
+}
+
+.feature-main {
+
+    &__title {
+        color: $text-title;
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 700;
+        /* Text style for "Mobile Fri" */
+        letter-spacing: 0.8px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    &__text {
+        color: $text-color;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        /* Text style for "E, xcepteu" */
+        letter-spacing: 0.7px;
+    }
+}

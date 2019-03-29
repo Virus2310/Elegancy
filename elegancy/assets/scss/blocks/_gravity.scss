@@ -1,0 +1,31 @@
+@import "../_colors";
+@import "../_fonts";
+@import "../utils/glob";
+
+// Основні стилі
+
+.page_gray{
+    background-color: #d1d1d1;
+    padding: 150px 150px;
+}
+
+.gravity-block {
+    &__title{
+        color: $text-title;
+        font-family: Raleway;
+        font-size: 26px;
+        font-weight: 700;
+        /* Text style for "Learn more" */
+        letter-spacing: 1.3px;
+    }
+
+    &__text{
+        color: $text-color;
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        /* Text style for "E, xcepteu" */
+        letter-spacing: 0.8px;
+    }
+}

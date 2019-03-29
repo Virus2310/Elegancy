@@ -94,22 +94,6 @@
   font-style: normal;
 }
 
-.input::-webkit-input-placeholder {
-  color: red;
-}
-
-.input:-moz-placeholder {
-  color: red;
-}
-
-.input::-moz-placeholder {
-  color: red;
-}
-
-.input:-ms-input-placeholder {
-  color: red;
-}
-
 body {
   font-family: Raleway-Regular, sans-serif;
   font-family: Raleway-Bold, sans-serif;
@@ -278,8 +262,15 @@ body {
   text-indent: 1000px;
 }
 
-.form-wrap__subs {
+.form-wrap .button {
+  color: #fff;
   border: none;
+  padding: 20px 34px;
+  background-color: #395e66;
+  font-family: Raleoway-SemiBold, sans-serif;
+}
+
+.form-wrap__subs {
   background-color: #395e66;
   font-family: Raleoway-SemiBold, sans-serif;
   font-size: 14px;
@@ -288,7 +279,6 @@ body {
   /* Text style for "S, ubscrib" */
   letter-spacing: 0.56px;
   color: #fff;
-  padding: 20px 34px;
 }
 
 @font-face {
@@ -339,20 +329,145 @@ body {
   font-style: normal;
 }
 
-.input::-webkit-input-placeholder {
-  color: red;
+.header {
+  background: #d1d1d1 url("/Elegancy-Web-Site-/elegancy/assets/images/head-bag.png") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 40px;
 }
 
-.input:-moz-placeholder {
-  color: red;
+.nav-block__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.input::-moz-placeholder {
-  color: red;
+.nav-block__link {
+  color: #727272;
+  font-family: Raleway-Light, sans-serif;
+  font-weight: 400;
 }
 
-.input:-ms-input-placeholder {
-  color: red;
+.nav-block__link:hover {
+  text-decoration: none;
+}
+
+.form-main__item {
+  margin-top: 150px;
+}
+
+.form-block__title {
+  padding-bottom: 30px;
+}
+
+.form-block__text {
+  font-family: Raleway;
+  font-size: 13px;
+  font-weight: 300;
+  text-transform: uppercase;
+  /* Text style for "Join our n" */
+  letter-spacing: 3.25px;
+  padding-bottom: 40px;
+}
+
+@font-face {
+  font-family: 'Raleway Semibold';
+  src: url("Raleway-SemiBold.eot");
+  src: url("Raleway-SemiBold.eot?#iefix") format("embedded-opentype"), url("Raleway-SemiBold.woff") format("woff"), url("../assets/fonts/Raleway-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Thin';
+  src: url("Raleway-Thin.eot");
+  src: url("Raleway-Thin.eot?#iefix") format("embedded-opentype"), url("Raleway-Thin.woff") format("woff"), url("../assets/fonts/Raleway-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Light';
+  src: url("Raleway-Light.eot");
+  src: url("Raleway-Light.eot?#iefix") format("embedded-opentype"), url("Raleway-Light.woff") format("woff"), url("../assets/fonts/Raleway-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Regular';
+  src: url("Raleway-Regular.eot");
+  src: url("Raleway-Regular.eot?#iefix") format("embedded-opentype"), url("Raleway-Regular.woff") format("woff"), url("../assets/fonts/Raleway-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Medium';
+  src: url("Raleway-Medium.eot");
+  src: url("Raleway-Medium.eot?#iefix") format("embedded-opentype"), url("Raleway-Medium.woff") format("woff"), url("../assets/fonts/Raleway-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Bold';
+  src: url("Raleway-Bold.eot");
+  src: url("Raleway-Bold.eot?#iefix") format("embedded-opentype"), url("Raleway-Bold.woff") format("woff"), url("../assets/fonts/Raleway-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Semibold';
+  src: url("Raleway-SemiBold.eot");
+  src: url("Raleway-SemiBold.eot?#iefix") format("embedded-opentype"), url("Raleway-SemiBold.woff") format("woff"), url("../assets/fonts/Raleway-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Thin';
+  src: url("Raleway-Thin.eot");
+  src: url("Raleway-Thin.eot?#iefix") format("embedded-opentype"), url("Raleway-Thin.woff") format("woff"), url("../assets/fonts/Raleway-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Light';
+  src: url("Raleway-Light.eot");
+  src: url("Raleway-Light.eot?#iefix") format("embedded-opentype"), url("Raleway-Light.woff") format("woff"), url("../assets/fonts/Raleway-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Regular';
+  src: url("Raleway-Regular.eot");
+  src: url("Raleway-Regular.eot?#iefix") format("embedded-opentype"), url("Raleway-Regular.woff") format("woff"), url("../assets/fonts/Raleway-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Medium';
+  src: url("Raleway-Medium.eot");
+  src: url("Raleway-Medium.eot?#iefix") format("embedded-opentype"), url("Raleway-Medium.woff") format("woff"), url("../assets/fonts/Raleway-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Bold';
+  src: url("Raleway-Bold.eot");
+  src: url("Raleway-Bold.eot?#iefix") format("embedded-opentype"), url("Raleway-Bold.woff") format("woff"), url("../assets/fonts/Raleway-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .header {
@@ -400,19 +515,102 @@ body {
   padding-bottom: 40px;
 }
 
-.input::-webkit-input-placeholder {
-  color: red;
+.features {
+  background-color: white;
+  padding: 60px 90px;
+  height: auto;
 }
 
-.input:-moz-placeholder {
-  color: red;
+.feature-main__title {
+  color: #2d4e55;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  /* Text style for "Mobile Fri" */
+  letter-spacing: 0.8px;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 
-.input::-moz-placeholder {
-  color: red;
+.feature-main__text {
+  color: #727272;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  /* Text style for "E, xcepteu" */
+  letter-spacing: 0.7px;
 }
 
-.input:-ms-input-placeholder {
-  color: red;
+@font-face {
+  font-family: 'Raleway Semibold';
+  src: url("Raleway-SemiBold.eot");
+  src: url("Raleway-SemiBold.eot?#iefix") format("embedded-opentype"), url("Raleway-SemiBold.woff") format("woff"), url("../assets/fonts/Raleway-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Thin';
+  src: url("Raleway-Thin.eot");
+  src: url("Raleway-Thin.eot?#iefix") format("embedded-opentype"), url("Raleway-Thin.woff") format("woff"), url("../assets/fonts/Raleway-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Light';
+  src: url("Raleway-Light.eot");
+  src: url("Raleway-Light.eot?#iefix") format("embedded-opentype"), url("Raleway-Light.woff") format("woff"), url("../assets/fonts/Raleway-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Regular';
+  src: url("Raleway-Regular.eot");
+  src: url("Raleway-Regular.eot?#iefix") format("embedded-opentype"), url("Raleway-Regular.woff") format("woff"), url("../assets/fonts/Raleway-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Medium';
+  src: url("Raleway-Medium.eot");
+  src: url("Raleway-Medium.eot?#iefix") format("embedded-opentype"), url("Raleway-Medium.woff") format("woff"), url("../assets/fonts/Raleway-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Bold';
+  src: url("Raleway-Bold.eot");
+  src: url("Raleway-Bold.eot?#iefix") format("embedded-opentype"), url("Raleway-Bold.woff") format("woff"), url("../assets/fonts/Raleway-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.page_gray {
+  background-color: #d1d1d1;
+  padding: 150px 150px;
+}
+
+.gravity-block__title {
+  color: #2d4e55;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  /* Text style for "Learn more" */
+  letter-spacing: 1.3px;
+}
+
+.gravity-block__text {
+  color: #727272;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  /* Text style for "E, xcepteu" */
+  letter-spacing: 0.8px;
 }
 /*# sourceMappingURL=style.css.map */
